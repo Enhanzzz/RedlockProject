@@ -10,6 +10,7 @@ $mydatabase = 'Redlock';
 
 echo "List Of Users!";
 echo "<br>";
+echo "-----------------------";
 
 $conn = new mysqli($host, $user, $pass, $mydatabase);
 
@@ -31,4 +32,5 @@ foreach ($users as $user) {
     echo "<br>";
     echo $user->Jabatan;
     echo "<br>";
+    echo "-----------------------";
 }
